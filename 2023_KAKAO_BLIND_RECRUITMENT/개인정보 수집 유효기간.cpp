@@ -3,12 +3,12 @@
 #include <map>
 
 using namespace std;
-map<char, int> mm; //¾à°ü ÀúÀå
+map<char, int> mm; 
 
 vector<int> solution(string today, vector<string> terms, vector<string> privacies) {
     vector<int> answer;
 
-    int y, m, d; //¿À´ÃÀÇ ³¯Â¥
+    int y, m, d; //Â¿Ã€Â´ÃƒÃ€Ã‡ Â³Â¯Ã‚Â¥
     y = stoi(today.substr(0, 4));
     m = stoi(today.substr(5, 2));
     d = stoi(today.substr(8, 2));
