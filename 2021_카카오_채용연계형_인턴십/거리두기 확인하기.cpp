@@ -76,4 +76,4 @@ vector<int> solution(vector<vector<string>> places) {
     }
 
     return answer;
-}
+} 
