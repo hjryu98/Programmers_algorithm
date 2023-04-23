@@ -30,4 +30,4 @@ string solution(vector<string> survey, vector<int> choices) {
     else answer += "N";
 
     return answer;
-}
+} 
