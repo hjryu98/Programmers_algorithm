@@ -31,7 +31,7 @@ int solution(string s) {
             if (m.count(tmp)) {
                 answer = m[tmp] + 10 * answer;
                 tmp.clear();
-            }
+            } 
 
         }
     }
